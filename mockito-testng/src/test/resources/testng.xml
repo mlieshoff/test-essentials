@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testng-mockito" parallel="methods">
+    <listeners>
+        <listener class-name="testessentials.mockito.testng.listener.FixtureListener"/>
+        <listener class-name="testessentials.mockito.testng.listener.AutoCloseableListener"/>
+        <listener class-name="testessentials.mockito.testng.listener.StaticMockListener"/>
+        <listener class-name="testessentials.mockito.testng.listener.UnitUnderTestListener"/>
+    </listeners>
+    <test name="unittests">
+        <packages>
+            <package name="testessentials.testng.mockito"/>
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>testessentials</groupId>
+        <artifactId>testessentials</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <packaging>jar</packaging>
+    <artifactId>mockito</artifactId>
+    <inceptionYear>2024</inceptionYear>
+    <description>java essentials for testing stuff</description>
+    <dependencies>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>${version.mockito}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>testessentials</groupId>
+            <artifactId>core</artifactId>
+            <version>${version}</version>
+        </dependency>
+    </dependencies>
+</project>

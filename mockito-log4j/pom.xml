@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>testessentials</groupId>
+        <artifactId>testessentials</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <packaging>jar</packaging>
+    <artifactId>mockito-log4j</artifactId>
+    <inceptionYear>2024</inceptionYear>
+    <description>java essentials for testing stuff</description>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j2-impl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>testessentials</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${version}</version>
+        </dependency>
+    </dependencies>
+</project>
